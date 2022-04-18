@@ -4,15 +4,17 @@ import './Home.css'
 
 const Home = () => {
   return (
+    <>
+    <h2> hello?</h2>
     <Grid container spacing={2} justifyContent='center' alignItems='center'>
         <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-            <div width="100%" height="100%">
-              <video autoplay loop muted id="backgroundVideo">
-                <source src="public/video/Pexels Videos 2711127.mp4" type='video/mp4' />
+              <video autoplay loop muted id="video">
+                <source src='../public/video/PexelsVideos2711127.mp4' type='video/mp4' />
               </video>
-            </div>
+              <h2>this is some text</h2>
         </Grid>
     </Grid>
+    </>
   )
 }
 
