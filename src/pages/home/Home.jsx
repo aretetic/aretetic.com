@@ -6,8 +6,6 @@ import backgroundVideo from './PexelsVideos2711127.mp4'
 const Home = () => {
   return (
     <>
-    <h2> hello?</h2>
-   
               <video autoPlay loop muted id='video'>
                 <source src= {backgroundVideo} type='video/mp4' />
               </video>
