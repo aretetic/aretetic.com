@@ -4,6 +4,10 @@
 }
 #headerContainer {
     width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
 #mainMenu {
     width: max-content;
@@ -11,19 +15,23 @@
 .mainMenuItem {
     color: #633551;
     border: none;
-    font-size: 2em;
     background-color: #fff;
     font-family: Kiona-Bold, sans-serif !important;
 }
+.mainMenuItem a {
+    text-decoration: none;
+}
 .mainMenuItem:hover {
-    color: #b4c6de;
+    color: rgba(83,86,131,1);
 }
 @media screen and (max-width: 900px) {
     #logo {
-        width: 233px;
-        height: 233px;
+        width: 144px;
+        height: 144px;
+        margin-left: -21px;
     }
     #mainMenu {
         width: min-content;
+        text-align: left;
     }
 }

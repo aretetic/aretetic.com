@@ -3,6 +3,7 @@ import * as React from 'react';
 import './App.css';
 import Header from './components/header/Header';
 import Home from './pages/home/Home';
+import Services from './pages/services/Services';
 import Footer from './components/footer/Footer';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 			<Header />
 			<Routes>
 				<Route path='/' element={<Home />} />
+				<Route path='/services' element={<Services />} />
 			</Routes>
 			<Footer />
 		</>

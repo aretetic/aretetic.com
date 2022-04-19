@@ -4,3 +4,15 @@
     min-width: 1597px;
     width: 100%;
 }
+#homepageFloat {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 144px;
+    background-color: rgba(180,198,222,0.55);
+    width: 34vw;
+    height: 21vh;
+    padding: 21px 55px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(85,128,169,1);
+    text-align: center;
+}
