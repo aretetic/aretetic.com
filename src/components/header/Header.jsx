@@ -1,7 +1,7 @@
 import { Button, Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logo from './logo_withSloganWhite.png'
+import logo from './fullLogoBrandmark.svg'
 
 const Header = () => {
   return (
