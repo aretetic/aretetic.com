@@ -1,8 +1,9 @@
-import { Routes, Route } from 'react-router-dom'
-import './App.css'
-import Header from './components/header/Header'
-import Home from './pages/home/Home'
-import Footer from './components/footer/Footer'
+import { Routes, Route } from 'react-router-dom';
+import * as React from 'react';
+import './App.css';
+import Header from './components/header/Header';
+import Home from './pages/home/Home';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (

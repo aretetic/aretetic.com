@@ -1,0 +1,29 @@
+#logo {
+    width: 144px;
+    height: 144px;
+}
+#headerContainer {
+    width: 100%;
+}
+#mainMenu {
+    width: max-content;
+}
+.mainMenuItem {
+    color: #633551;
+    border: none;
+    font-size: 2em;
+    background-color: #fff;
+    font-family: Kiona-Bold, sans-serif !important;
+}
+.mainMenuItem:hover {
+    color: #b4c6de;
+}
+@media screen and (max-width: 900px) {
+    #logo {
+        width: 233px;
+        height: 233px;
+    }
+    #mainMenu {
+        width: min-content;
+    }
+}

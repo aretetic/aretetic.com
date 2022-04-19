@@ -1,7 +1,18 @@
+@font-face {
+  font-family: Kiona-Regular;
+  src: url(../public/fonts/Kiona-Regular.ttf);
+}
+@font-face {
+  font-family: Kiona-SemiBold;
+  src: url(../public/fonts/Kiona-SemiBold.ttf);
+}
+@font-face {
+  font-family: Kiona-Bold;
+  src: url(../public/fonts/Kiona-Bold.ttf);
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: Kiona-regular,
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,4 +21,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.rightJustify {
+  text-align: right;
+  margin-right: 20px;
+}
+.xs {
+  font-size: 12px;
+}
+.sm {
+  font-size: 16px;
+}
+.md {
+  font-size: 18px;
+}
+.lg {
+  font-size: 22px;
+}
+.xl {
+  font-size: 28px;
 }
