@@ -9,7 +9,7 @@ const Home = () => {
       <video autoPlay loop muted id='video'>
         <source src= {backgroundVideo} type='video/mp4' />
       </video>
-      <div id='homepageFloat'>
+      <div class='contentContainer'>
         <h2>Make your dream a reality</h2>
         <Button variant="contained">Learn More</Button>
       </div>

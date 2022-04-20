@@ -11,7 +11,7 @@ const Footer = () => {
           
         </Grid>
         <Grid item xs={12} md={4}>
-          <p className='rightJustify xs' id='copyright'>Copyright 2022 Aretetic Solutions</p>
+          <p className='rightJustify xs' id='copyright'>Copyright 2022 Aretetic Solutions, LLC</p>
         </Grid>
       </Grid>
     </div>

@@ -6,7 +6,7 @@ import logo from './fullLogoBrandmark.svg'
 const Header = () => {
   return (
     <div id="headerContainer">
-    <Grid container direction="row" justifyContent="center" alignItems="center" spacing={2}>
+    <Grid container direction="row" justifyContent="center" alignItems="center" spacing={12}>
       <Grid item xs={0} sm={0} md={1}></Grid>
       <Grid item xs={12} sm={12} md={2}>
         <Link to='/'>
@@ -18,12 +18,12 @@ const Header = () => {
         <Grid container justifyContent='space-between' alignItems='center' id='mainMenu' spacing={12}>
           <Grid item xs>
             <Link to='/'>
-              <Button class='mainMenuItem xl'>Home</Button>
+              <Button class='mainMenuItem xxxl'>Home</Button>
             </Link>
           </Grid>
           <Grid item xs>
             <Link to='/services'>
-              <Button class='mainMenuItem xl'>Services</Button>
+              <Button class='mainMenuItem xxxl'>Services</Button>
             </Link>
           </Grid>
           {/*<Grid item xs>

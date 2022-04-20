@@ -1,0 +1,31 @@
+#servicesPageBackground {
+    position: fixed;
+    z-index: -1;
+    min-width: 1597px;
+    width: 100%;
+}
+
+#contactForm {
+    width: 377px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input {
+    display: block;
+    width: 233px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 13px;
+    border-radius: 8px;
+    border: 0px;
+    padding: 5px 13px;
+}
+.message {
+    height: 55px;
+}
+.submit {
+    width: 144px;
+    height: 34px;
+    color: #fff;
+    background-color: #633551;
+}
