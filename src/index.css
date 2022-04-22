@@ -97,3 +97,9 @@ code {
 button {
   font-family: Kiona-SemiBold, sans-serif !important;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
