@@ -10,7 +10,7 @@ const Home = () => {
         <source src= {backgroundVideo} type='video/mp4' />
       </video>
       <div class='contentContainer'>
-        <h2>Make your dream a reality</h2>
+        <h2>Aretetic provides management consulting services to accelerate your trajectory towards making good things happen. We shephard your spark of genius from notion to motion with novel approaches, years of experience, and unwavering belief.</h2>
         <Button variant="contained">Learn More</Button>
       </div>
     </>

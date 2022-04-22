@@ -1,5 +1,6 @@
 #servicesPageBackground {
     position: fixed;
+    top: 0px;
     z-index: -1;
     min-width: 1597px;
     width: 100%;
