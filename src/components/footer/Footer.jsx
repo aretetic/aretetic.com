@@ -1,6 +1,7 @@
 import { Grid } from '@mui/material'
 import React from 'react'
 import './Footer.css'
+import copyright from '../images/Copyright.svg'
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
           
         </Grid>
         <Grid item xs={12} md={4}>
-          <p className='rightJustify xs' id='copyright'>Copyright 2022 Aretetic Solutions, LLC</p>
+          <p className='rightJustify xs' id='copyright'><img src={copyright} alt='copyright symbol' width='8' /> 2022 Aretetic Solutions, LLC</p>
         </Grid>
       </Grid>
     </div>

@@ -29,4 +29,9 @@
     height: 34px;
     color: #fff;
     background-color: #633551;
+    font-family: Kiona-SemiBold, sans-serif;
+}
+.services{
+    width: 55vw;
+    margin-top: 89px;
 }

@@ -4,3 +4,22 @@
     min-width: 1597px;
     width: 100%;
 }
+#frontpageContent {
+    width: 55vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 89px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.front {
+    margin-top: 55px;
+    width: 34vw;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}

@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <>
         <img src={backgroundImage} alt='mountains' id='servicesPageBackground' />
-            <div class='contentContainer'>
+            <div class='services contentContainer'>
                 <Grid container justifyContent='space-around' alignContent='center' spacing={2}>
                     <Grid item xs={12}>
                         <h2 class='bold xl'>Bespoke solutions to any business or organizational need. Core services with proven track record of success:</h2>
