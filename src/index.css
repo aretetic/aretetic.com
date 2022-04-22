@@ -10,6 +10,10 @@
   font-family: Kiona-Bold;
   src: url(../public/fonts/Kiona-Bold.ttf);
 }
+@font-face {
+  font-family: Raleway;
+  src: url(../public/fonts/Raleway-VariableFont_wght.ttf);
+}
 body {
   margin: 0;
   font-family: Kiona-regular,
@@ -49,13 +53,13 @@ code {
   font-size: 2em;
 }
 .regular {
-  font-family: Kiona-Regular, sans-serif !important;
+  font-weight: 400;
 }
 .semiBold {
-  font-family: Kiona-semiBold, sans-serif !important;
+  font-weight: 600;
 }
 .bold {
-  font-family: Kiona-Bold, sans-serif !important;
+  font-weight: 800;
 }
 .centerJustify {
   text-align: center;
@@ -79,6 +83,8 @@ code {
 .contentContainer {
   width: 55vw;
   height: min-content;
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
   background-color: rgba(85,128,169,0.89);
   color: #fff;
   margin-left: auto;

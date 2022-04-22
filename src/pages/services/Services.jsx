@@ -10,11 +10,11 @@ const Services = () => {
             <div class='contentContainer'>
                 <Grid container justifyContent='space-around' alignContent='center' spacing={2}>
                     <Grid item xs={12}>
-                        <h2 class='semiBold lg'>Bespoke solutions to any business or organizational need. Core services with proven track record of success:</h2>
+                        <h2 class='bold xl'>Bespoke solutions to any business or organizational need. Core services with proven track record of success:</h2>
                     </Grid>
-                    <Grid item xs={4} class='centerJustify semiBold'>
-                        <h3>Culture and Change</h3>
-                        <ul class='leftJustify'>
+                    <Grid item xs={4} class='centerJustify'>
+                        <h3 class='semiBold'>Culture and Change</h3>
+                        <ul class='leftJustify regular'>
                             <li>
                                 UX & CX
                             </li>
@@ -26,9 +26,9 @@ const Services = () => {
                             </li>
                         </ul>
                     </Grid>
-                    <Grid item xs={4} class='centerJustify semiBold'>
-                        <h3>Strategy</h3>
-                        <ul class='leftJustify'>
+                    <Grid item xs={4} class='centerJustify'>
+                        <h3 class='semiBold'>Strategy</h3>
+                        <ul class='leftJustify regular'>
                             <li>
                                 Startup Acceleration
                             </li>
@@ -49,9 +49,9 @@ const Services = () => {
                             </li>
                         </ul>
                     </Grid>
-                    <Grid item xs={4} class='centerJustify semiBold'>
-                        <h3>Agile Project Management</h3>
-                        <ul class='leftJustify'>
+                    <Grid item xs={4} class='centerJustify'>
+                        <h3 class='semiBold'>Agile Project Management</h3>
+                        <ul class='leftJustify regular'>
                             <li>
                                 MVP Development
                             </li>
@@ -64,7 +64,7 @@ const Services = () => {
                         </ul>
                     </Grid>
                     <Grid item xs={12}>
-                        <h2 class='semiBold lg'>Don’t see your need represented here? Contact us and we’ll get you the right people to make it happen.</h2>
+                        <h2 class='bold xl'>Don’t see your need represented here? Contact us and we’ll get you the right people to make it happen.</h2>
                     </Grid>
                     <Grid item xs={12} id='contactFormWrapper'>
                         <form id='contactForm'>
