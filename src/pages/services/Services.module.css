@@ -1,4 +1,4 @@
-#servicesPageBackground {
+.servicesPageBackground {
     position: fixed;
     top: 0px;
     z-index: -1;
@@ -6,8 +6,8 @@
     width: 100%;
 }
 
-#contactForm {
-    width: 55vw;
+.contactForm {
+    width: 377px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -36,7 +36,7 @@
     width: 89vw;
     margin-top: 89px;
 }
-.service {
-    margin-left: 34px;
-    margin-right: 34px;
+
+.form-error-text {
+    color: #e0543b !important;
 }
