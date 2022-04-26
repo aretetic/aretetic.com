@@ -109,19 +109,19 @@ const Services = () => {
                     <Grid item xs={12}>
                         <h2 class='bold xl'>Don’t see your need represented here? Contact us and we’ll get you the right people to make it happen.</h2>
                     </Grid>
-                    <Grid item xs={12} id='contactFormWrapper'>
+                  {!showMessage && <Grid item xs={12} id='contactFormWrapper'>
                       <form className={styles.contactForm} onSubmit={handleSubmit(sendEmail)} autoComplete='off'>
                           <input required type='text' name='name' placeholder='Name' class={styles.input} {...register('name', { required: 'Name is required.' })} />
                           {errors.name && (<p className='form-error-text'>{errors.name.message}</p>)}
                           <input required type='text' name='email' placeholder='Email' class={styles.input} {...register('email', { required: 'Email is required.' })} />
                           {errors.email && (<p className='form-error-text'>{errors.email.message}</p>)}
-                            <input required type='text' name='phone' placeholder='Phone' class={styles.input} {...register('phone', { required: 'Phone is required.' })} />
+                          <input required type='text' name='phone' placeholder='Phone' class={styles.input} {...register('phone', { required: 'Phone is required.' })} />
                           {errors.phone && (<p className='form-error-text'>{errors.phone.message}</p>)}
-                            <textarea required placeholder='Message' name='message' className={`${styles.input} ${styles.message}`} {...register('message', { required: 'Message is required.' })} />
+                          <textarea required placeholder='Message' name='message' className={`${styles.input} ${styles.message}`} {...register('message', { required: 'Message is required.' })} />
                           {errors.message && (<p className='form-error-text'>{errors.message.message}</p>)}
                           <input type='submit' class={`styles.${styles.submit} md`} value='Send' />
-                        </form>
-                    </Grid>
+                      </form>
+                  </Grid>}
                     <p className={showMessage ? 'center' : 'center hide'}>
                         Thank you for contacting Aretetic Solutions! We have received your
                         message, and will be in touch soon.
