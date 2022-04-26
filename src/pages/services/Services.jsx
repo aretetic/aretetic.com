@@ -129,7 +129,7 @@ const Services = () => {
                           <input type='submit' class={`styles.${styles.submit} md`} value='Send' />
                       </form>
                   </Grid>}
-                    <p className={showMessage ? 'center' : 'center hide'}>
+                    <p className={showMessage ? '' : 'hide'}>
                         Thank you for contacting Aretetic Solutions! We have received your
                         message, and will be in touch soon.
                     </p>
