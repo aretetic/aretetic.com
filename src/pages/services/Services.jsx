@@ -107,7 +107,7 @@ const Services = () => {
                         </ul>
                     </Grid>
                     <Grid item xs={12}>
-                        <h2 class='bold xl'>Don’t see your need represented here? Contact us and we’ll get you the right people to make it happen.</h2>
+                        <h2 class='bold xl'>Contact Us</h2>
                     </Grid>
                   {!showMessage && <Grid item xs={12}>
                       <form className={styles.contactForm} onSubmit={handleSubmit(sendEmail)} autoComplete='off'>
