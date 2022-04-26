@@ -18,12 +18,12 @@ const Header = () => {
         <Grid container justifyContent='space-between' alignItems='center' id='mainMenu' spacing={12}>
           <Grid item xs>
             <Link to='/'>
-              <Button variant='text' class='mainMenuItem xxxl'>Home</Button>
+              <Button disableRipple class='mainMenuItem xxxl'>Home</Button>
             </Link>
           </Grid>
           <Grid item xs>
             <Link to='/services'>
-              <Button variant='text' class='mainMenuItem xxxl'>Services</Button>
+              <Button disableRipple class='mainMenuItem xxxl'>Services</Button>
             </Link>
           </Grid>
           {/*<Grid item xs>
