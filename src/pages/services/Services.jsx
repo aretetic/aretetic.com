@@ -113,7 +113,14 @@ const Services = () => {
                       <form className={styles.contactForm} onSubmit={handleSubmit(sendEmail)} autoComplete='off'>
                           <input required type='text' name='name' placeholder='Name' class={styles.input} {...register('name', { required: 'Name is required.' })} />
                           {errors.name && (<p className='form-error-text'>{errors.name.message}</p>)}
-                          <input required type='text' name='email' placeholder='Email' class={styles.input} {...register('email', { required: 'Email is required.' })} />
+                          <input required type='text' name='email' placeholder='Email' class={styles.input} {...register('email', {
+                            required: 'Email is required.',
+                            pattern: {
+                                value:
+                                    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                                message: 'Please enter a valid email',
+                            },
+                        })} />
                           {errors.email && (<p className='form-error-text'>{errors.email.message}</p>)}
                           <input required type='text' name='phone' placeholder='Phone' class={styles.input} {...register('phone', { required: 'Phone is required.' })} />
                           {errors.phone && (<p className='form-error-text'>{errors.phone.message}</p>)}
