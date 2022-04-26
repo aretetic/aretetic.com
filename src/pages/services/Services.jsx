@@ -140,7 +140,7 @@ const Services = () => {
                           {errors.phone && (<p className='form-error-text'>{errors.phone.message}</p>)}
                           <textarea required placeholder='Message' name='message' className={`${styles.input} ${styles.message}`} {...register('message', { required: 'Message is required.' })} />
                           {errors.message && (<p className='form-error-text'>{errors.message.message}</p>)}
-                          <input type='submit' class={`styles.${styles.submit} md`} value='Send' />
+                          <input type='submit' className={`${styles.submit} md`} value='Send' />
                       </form>
                   </Grid>}
                     <p className={showMessage ? '' : 'hide'}>

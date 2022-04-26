@@ -27,8 +27,8 @@ const Header = () => {
             </Link>
           </Grid>
           {/*<Grid item xs>
-            <Link to='/blog'>
-              <Button class='mainMenuItem'>Blog</Button>
+            <Link to='/about'>
+              <Button class='mainMenuItem xxxl'>About</Button>
             </Link>
           </Grid>*/}
         </Grid>

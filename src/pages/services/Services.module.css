@@ -29,7 +29,7 @@
     width: 21vw;
     height: 34px;
     color: #fff;
-    background-color: #633551;
+    background-color: #633551 !important;
     font-family: Kiona-SemiBold, sans-serif;
 }
 .services{
