@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import * as React from 'react';
-import { Redirect} from 'react-router';
+import { Navigate} from 'react-router-dom';
 import './App.css';
 import Header from './components/header/Header';
 import Home from './pages/home/Home';
@@ -14,7 +14,8 @@ function App() {
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/services' element={<Services />} />
-				<Redirect from='*' to='/' />
+				<Route path='*' element={<Navigate to='/' replace />}
+    />
 			</Routes>
 			<Footer />
 		</>
