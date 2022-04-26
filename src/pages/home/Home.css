@@ -1,5 +1,6 @@
 #video {
     position: fixed;
+    top: 200px;
     z-index: -1;
     min-width: 1597px;
     width: 100%;
@@ -17,9 +18,9 @@
     margin-top: 55px;
     width: 34vw;
 }
-a {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: none;
+@media screen and (max-width: 900px) {
+    #video {
+        display: none;
+    }
+    
 }
