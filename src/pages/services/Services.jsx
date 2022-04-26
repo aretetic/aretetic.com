@@ -56,20 +56,6 @@ const Services = () => {
                         <h2 class='bold xl'>Bespoke solutions to any business or organizational need. Core services with proven track record of success:</h2>
                     </Grid>
                     <Grid item xs={4} class='centerJustify'>
-                      <h3 class='semiBold'>Culture and Change</h3>
-                        <ul class='leftJustify regular'>
-                            <li>
-                                UX &amp; CX
-                            </li>
-                            <li>
-                                Development or Turnaround
-                            </li>
-                            <li>
-                                Organizational Design
-                            </li>
-                        </ul>
-                    </Grid>
-                    <Grid item xs={4} class='centerJustify'>
                         <h3 class='semiBold'>Strategy</h3>
                         <ul class='leftJustify regular'>
                             <li>
