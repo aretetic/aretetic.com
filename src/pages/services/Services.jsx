@@ -123,7 +123,7 @@ const Services = () => {
                     <Grid item xs={12}>
                         <h2 class='bold xl'>Don’t see your need represented here? Contact us and we’ll get you the right people to make it happen.</h2>
                     </Grid>
-                  {!showMessage && <Grid item xs={12} id='contactFormWrapper'>
+                  {!showMessage && <Grid item xs={12}>
                       <form className={styles.contactForm} onSubmit={handleSubmit(sendEmail)} autoComplete='off'>
                           <input required type='text' name='name' placeholder='Name' class={styles.input} {...register('name', { required: 'Name is required.' })} />
                           {errors.name && (<p className='form-error-text'>{errors.name.message}</p>)}
