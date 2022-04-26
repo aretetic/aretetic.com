@@ -40,3 +40,7 @@
 .hide {
   display: none;
 }
+
+.form-error-text {
+  color: #e0543b !important;
+}
