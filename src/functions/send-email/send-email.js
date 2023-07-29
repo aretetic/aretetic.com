@@ -7,7 +7,7 @@ exports.handler = async function(event, context) {
 
   console.log(data.message);
   // Set the SendGrid API key.
-  sgMail.setApiKey(`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`)
+  sgMail.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
 
   const firstname = data.firstname;
   const lastname = data.lastname;
