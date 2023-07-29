@@ -1,17 +1,25 @@
-const sgMail = require('@sendgrid/mail')
-sgMail.setApiKey('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')
-const msg = {
-  to: 'ian@aretetic.com', // Change to your recipient
-  from: 'ian@aretetic.com', // Change to your verified sender
-  subject: 'Sending with SendGrid is Fun',
-  text: 'and easy to do anywhere, even with Node.js',
-  html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-}
-sgMail
-  .send(msg)
-  .then(() => {
-    console.log('Email sent')
-  })
-  .catch((error) => {
-    console.error(error)
-  })
+const express = require('express');
+const sgMail = require('@sendgrid/mail');
+const app = express();
+app.use(express.json());
+
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+
+app.post('./services', (req, res) => {
+  const { name, email, message } = req.body;
+
+  const content = {
+    to: 'your-email@example.com',
+    from: email,
+    subject: `New Message From ${name}`,
+    text: message,
+    html: `<p>${message}</p>`
+  };
+
+  sgMail
+    .send(content)
+    .then(() => res.status(200).send('Message sent successfully'))
+    .catch((error) => res.status(400).send('Message not sent.'));
+});
+
+app.listen(3001, () => console.log('Server is up on port 3001'));

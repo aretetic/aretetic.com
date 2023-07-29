@@ -2,6 +2,6 @@
     "compilerOptions": {
       "baseUrl": "./src"
     },
-    "include": ["src", "EmailTest.jsx"]
+    "include": ["src", ".netlify/functions"]
     
   }
