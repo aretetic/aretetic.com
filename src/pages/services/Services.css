@@ -5,11 +5,17 @@
     min-width: 1597px;
     width: 100%;
 }
-
-.contactForm {
-    width: 55vw;
+.servicesContent
+{
+    height: min-content;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    padding-top: 34px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(./pexels-sagui-andrea-618833.jpg)
+
 }
 .input {
     display: block;

@@ -1,18 +1,32 @@
 import React from 'react'
-import { Grid } from '@mui/material'
 import ContactForm from './ContactForm'
+import './Services.css'
+import { Grid } from 'semantic-ui-react'
 
 function Services() {
   return (
     <>
-          <div>
-                <Grid container justifyContent='space-around' alignContent='center' spacing={2}>
-                    <Grid item xs={12}>
+            <div class='servicesContent'>
+                <Grid columns={3} style={{justifyContent: 'space-around', backgroundColor: `#fff`, width: `55%`, marginLeft: `auto`, marginRight: `auto`, borderRadius: 13,}}>
+                    <Grid.Row>
+                        <Grid.Column width={1}>
+
+                        </Grid.Column>
+                    <Grid.Column width={14}>
+                        <center>
                         <h2 class='bold xl'>Bespoke solutions to any business or organizational need. Core services with proven track record of success:</h2>
-                    </Grid>
-                    <Grid item xs={4} class='centerJustify'>
-                        <h3 class='semiBold lg'>Strategy</h3>
-                        <ul class='leftJustify regular'>
+                        </center>
+                    </Grid.Column>
+                    <Grid.Column width={1}>
+                            
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                    <Grid.Column>
+                        <center>
+                            <h3>Strategy</h3>
+                        </center>
+                        <ul style={{ width: '50%', marginLeft: `auto`, marginRight: `auto` }}>
                             <li>
                                 Startup Acceleration
                             </li>
@@ -29,10 +43,12 @@ function Services() {
                                 Marketing
                             </li>
                         </ul>
-                    </Grid>
-                    <Grid item xs={4} class='centerJustify service'>
-                        <h3 class='semiBold lg'>Culture and Change</h3>
-                        <ul class='leftJustify regular'>
+                    </Grid.Column>
+                    <Grid.Column>
+                        <center>
+                        <h3>Culture and Change</h3>
+                        </center>
+                        <ul style={{ width: '50%', marginLeft: `auto`, marginRight: `auto` }}>
                             <li>
                                 UX & CX
                             </li>
@@ -46,10 +62,12 @@ function Services() {
                                 Change Management
                             </li>
                         </ul>
-                    </Grid>
-                    <Grid item xs={4} class='centerJustify service'>
-                        <h3 class='semiBold lg'>Agile Project Management</h3>
-                        <ul class='leftJustify regular'>
+                    </Grid.Column>
+                    <Grid.Column>
+                        <center>
+                            <h3>Agile Project Management</h3>
+                        </center>
+                        <ul style={{ width: '50%', marginLeft: `auto`, marginRight: `auto` }}>
                             <li>
                                 MVP Development
                             </li>
@@ -60,15 +78,22 @@ function Services() {
                                 Web Dev and Scaling
                             </li>
                         </ul>
-                    </Grid>
-                    <Grid item xs={12}>
-                        <h2 class='bold xl'>Contact Us</h2>
-                    </Grid>
-                    <Grid item xs={11}>
-                        <ContactForm />
-                    </Grid>
+                    </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column>
+                            <center>
+                         <h2>Contact Us</h2>
+                         </center>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={14}>
+                            <ContactForm />
+                        </Grid.Column>
+                    </Grid.Row>
                   </Grid>
-            </div>
+                  </div>
     </>
   )
 }

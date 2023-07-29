@@ -1,11 +1,11 @@
 #footer {
-    position: relative;
+    position: fixed;
     bottom: 0px;
     width: 100%;
     height: 5vh;
-    background-color: rgba(85,128,169,0.55);
+    background-color: rgba(85,128,169,0.89);
     box-shadow: 0px -3px 5px rgba(85,128,169,0.55);
-    margin-top: 20px;
+    clear: both;
 }
 #copyright {
     font-family: Kiona-SemiBold, sans-serif !important;
