@@ -5,7 +5,8 @@
     font-weight: 300;
     padding-top: 89px;
     width: 100%;
-    background-image: url(./pexels-sagui-andrea-618833.jpg)
+    background-image: url(./pexels-sagui-andrea-618833.jpg);
+    padding-bottom: 34px! important;
 
 }
 .servicesContent {
