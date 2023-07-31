@@ -1,44 +1,44 @@
-.servicesPageBackground {
-    position: fixed;
-    top: 0px;
-    z-index: -1;
-    min-width: 1597px;
-    width: 100%;
-}
-.servicesContent
+.servicesContainer
 {
     height: min-content;
     font-family: Raleway, sans-serif;
     font-weight: 300;
     padding-top: 89px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     background-image: url(./pexels-sagui-andrea-618833.jpg)
 
 }
-.input {
-    display: block;
-    width: 34vw;
+.servicesContent {
+    background-color: #fff;
+    width: 89%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 13px;
     border-radius: 13px;
-    border: 0px;
-    padding: 5px 13px;
-    box-shadow: inset 2px 2px 5px #0c0c0c;
 }
-.message {
-    height: 55px;
+.servicesLists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.submit {
-    width: 21vw;
-    height: 34px;
-    color: #fff;
-    background-color: #633551 !important;
-    font-family: Kiona-SemiBold, sans-serif;
+.servicesTitle {
+    width: max-content;
+    padding: 13px 34px 13px 34px;
 }
-.services{
-    width: 89vw;
-    margin-top: 89px;
+.servicesList {
+    width: 100%;
+    justify-content: stretch;
+}
+.contactBlock {
+    width: 100% !important;
+    display: block;
+    padding: 13px 34px 13px 34px;
+}
+@media screen and (min-width: 900px) {
+    .servicesContent {
+        width: 55% !important;
+    }
+    .servicesList {
+        width: 30% !important;
+    }
 }

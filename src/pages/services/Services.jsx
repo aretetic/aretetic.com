@@ -1,32 +1,22 @@
 import React from 'react'
 import ContactForm from './ContactForm'
 import './Services.css'
-import { Grid } from 'semantic-ui-react'
 
 function Services() {
   return (
     <>
-            <div class='servicesContent'>
-                <Grid columns={3} style={{justifyContent: 'space-around', backgroundColor: `#fff`, width: `55%`, marginLeft: `auto`, marginRight: `auto`, borderRadius: 13,}}>
-                    <Grid.Row>
-                        <Grid.Column width={1}>
-
-                        </Grid.Column>
-                    <Grid.Column width={14}>
+            <div class='servicesContainer'>
+                <div class='servicesContent'>
+                    <div class='servicesLists'>
+                    <span class='servicesTitle'>
                         <center>
-                        <h2 class='bold xl'>Bespoke solutions to any business or organizational need. Core services with proven track record of success:</h2>
+                        <h2>Bespoke solutions to any business or organizational need. Core services with proven track record of success:</h2>
                         </center>
-                    </Grid.Column>
-                    <Grid.Column width={1}>
-                            
-                        </Grid.Column>
-                    </Grid.Row>
-                    <Grid.Row>
-                    <Grid.Column>
-                        <center>
-                            <h3>Strategy</h3>
-                        </center>
-                        <ul style={{ width: '50%', marginLeft: `auto`, marginRight: `auto` }}>
+                    </span>
+                    <span class='servicesList'>
+                    <center>
+                        <ul style={{ listStyleType: 'none' }}>
+                            <li><h3>Strategy</h3></li>
                             <li>
                                 Startup Acceleration
                             </li>
@@ -43,12 +33,12 @@ function Services() {
                                 Marketing
                             </li>
                         </ul>
-                    </Grid.Column>
-                    <Grid.Column>
+                    </center>
+                    </span>
+                    <span class='servicesList'>
                         <center>
-                        <h3>Culture and Change</h3>
-                        </center>
-                        <ul style={{ width: '50%', marginLeft: `auto`, marginRight: `auto` }}>
+                        <ul style={{ listStyleType: 'none' }}>
+                            <li><h3>Culture and Change</h3></li>
                             <li>
                                 UX & CX
                             </li>
@@ -62,12 +52,12 @@ function Services() {
                                 Change Management
                             </li>
                         </ul>
-                    </Grid.Column>
-                    <Grid.Column>
-                        <center>
-                            <h3>Agile Project Management</h3>
                         </center>
-                        <ul style={{ width: '50%', marginLeft: `auto`, marginRight: `auto` }}>
+                    </span>
+                    <span class='servicesList'>
+                        <center>
+                        <ul style={{ listStyleType: 'none' }}>
+                            <li><h3>Agile Project Management</h3></li>
                             <li>
                                 MVP Development
                             </li>
@@ -78,21 +68,20 @@ function Services() {
                                 Web Dev and Scaling
                             </li>
                         </ul>
-                    </Grid.Column>
-                    </Grid.Row>
-                    <Grid.Row>
-                        <Grid.Column>
+                        </center>
+                    </span>
+                    </div>
+                    <div class='contactBlock'>
+                        <div class='servicesTitle'>
                             <center>
                          <h2>Contact Us</h2>
                          </center>
-                        </Grid.Column>
-                    </Grid.Row>
-                    <Grid.Row>
-                        <Grid.Column width={14}>
+                        </div>
+                        <div>
                             <ContactForm />
-                        </Grid.Column>
-                    </Grid.Row>
-                  </Grid>
+                        </div>
+                    </div>
+                  </div>
                   </div>
     </>
   )
