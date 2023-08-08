@@ -1,6 +1,8 @@
 #logo {
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 #headerContainer {
     width: 100%;
@@ -11,33 +13,14 @@
     box-shadow: 0px 0px 13px #000;
     background-color: #fff;
     z-index: 100;
-}
-#mainMenu {
-    width: max-content;
-}
-.mainMenuItem {
-    color: #633551;
-    border: none;
-    background-color: #fff;
-    font-family: Kiona-Bold, sans-serif !important;
-}
-.mainMenuItem a {
-    text-decoration: none;
-}
-.mainMenuItem:hover {
-    color: rgba(83,86,131,1);
+    align-items: center !important;
 }
 @media screen and (max-width: 900px) {
     #logo {
-        width: 144px;
-        height: 144px;
-        margin-left: -21px;
-        margin-top: -89px;
-    }
-    #mainMenu {
-        width: 100vw;
-        text-align: center;
-        margin-top: -233px;
-        margin-left: -55px;
+        width: 40vw;
+        height: 40vw;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: -50px;
     }
 }

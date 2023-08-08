@@ -13,7 +13,7 @@ function App() {
 			<Header />
 			<Routes>
 				<Route path='/' element={<Home />} />
-				<Route path='/services' element={<Services />} />
+				<Route path='/aretetic-solutions-services' element={<Services />} />
 				<Route path='*' element={<Navigate to='/' replace />} />
 			</Routes>
 			<Footer />
