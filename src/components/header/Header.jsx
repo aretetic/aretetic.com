@@ -7,7 +7,10 @@ const Header = () => {
   return (
     <Grid id='headerContainer' justifyContent="center" alignItems="center" stackable>
       <Grid.Row>
-        <Grid.Column width={6} >
+        <Grid.Column width={1}>
+
+        </Grid.Column>
+        <Grid.Column width={5} >
           <Link to='/'>
             <Image src='/images/fullLogoBrandmark.svg' id='logo' alt='A and S forming land and a mountain' />
           </Link>

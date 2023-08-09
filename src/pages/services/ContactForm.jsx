@@ -103,7 +103,7 @@ const ContactForm = () => {
       header='Form Completed'
       content="Thanks for contacting us, we will be in touch soon!"
     />
-      <Form.Button type="submit">Submit</Form.Button>
+      <Form.Button color='blue' type="submit">Submit</Form.Button>
       </Form>
     </>
   );

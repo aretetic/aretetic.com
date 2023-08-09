@@ -77,7 +77,7 @@ function Navigation() {
 	return (
 		<>
 			<div className='navbar'>
-				<nav className='menu-icon' onClick={handleClick} style={{ backgroundColor: '#fff', padding: '2px 2px 2px 2px', borderRadius: '3px',}}>
+				<nav className='menu-icon' onClick={handleClick} style={{ padding: '2px 2px 2px 2px', borderRadius: '3px',}}>
 					<Icon name={click ? 'close' : 'sidebar'} />
 				</nav>
 				<nav className='multilevelMenu hideNav'>

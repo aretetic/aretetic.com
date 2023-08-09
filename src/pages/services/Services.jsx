@@ -5,7 +5,7 @@ import { Grid, Button } from 'semantic-ui-react'
 
 
 function Services() {
-  const [currentContent, setCurrentContent] = useState(null);
+    const [currentContent, setCurrentContent] = useState('default');
   function showStrategy() {
     setCurrentContent("Strategy");
   }
@@ -25,29 +25,41 @@ function Services() {
                         <Grid.Row>
                             <Grid.Column>
                             <h2>
-                                Unleash your business potential with our exquisite, tailor-made solutions, designed to empower organizations with unprecedented growth and productivity! Experience the pinnacle of success with our highly acclaimed, game-changing core services:
+                                Unleash your business potential with our exquisite, tailor-made solutions, designed to empower organizations with unprecedented growth and productivity!
+                            </h2> 
+                            <h2>
+                                Experience the pinnacle of success with our highly acclaimed, game-changing core services:
                             </h2>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row stretched columns='equal'>
                             <Grid.Column>
-                                <Button onClick={showStrategy}>
+                                <Button color='blue' onClick={showStrategy}>
                                     Strategy
                                 </Button>
                             </Grid.Column>
                             <Grid.Column>
-                                <Button onClick={showCultureAndChange}>
+                                <Button color='blue' onClick={showCultureAndChange}>
                                     Culture and Change
                                 </Button>
                             </Grid.Column>
                             <Grid.Column>
-                                <Button onClick={showAgileProjectManagement}>
+                                <Button color='blue' onClick={showAgileProjectManagement}>
                                     Agile Project Management
                                 </Button>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column>
+                                {
+                                currentContent === 'default' && (
+                                    <div>
+                                        <center>
+                                        <h3 style={{ color: '#ccc'}}>Please select a service category above to see our service offerings in more depth.</h3>
+                                        </center>
+                                    </div>
+                                )
+                                }
                                 {
                                 currentContent === "Strategy" && (
                                     <div>
@@ -106,8 +118,13 @@ function Services() {
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
+                            <Grid.Column width={16}>
+                            <hr />
+                            </Grid.Column>
+                        </Grid.Row>
+                        <Grid.Row>
                             <Grid.Column>
-                                <h3>Contact Us</h3>
+                                <h3>Contact us to see how we could make good things happen, together.</h3>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>

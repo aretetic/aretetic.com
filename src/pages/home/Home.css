@@ -2,8 +2,7 @@
     position: fixed;
     top: 0px;
     z-index: -1;
-    min-width: 1597px;
-    width: 100%;
+    width: 100vw;
 }
 #frontpageContent {
     width: 55vw;
@@ -14,7 +13,7 @@
     font-family: Raleway, sans-serif;
     font-weight: 800;
     text-align: center;
-    background-color: rgba(85,128,169,0.89);
+    background-color: rgba(85,128,169,1);
     color: #fff;
     padding: 55px 21px 55px 21px;
     border-radius: 8px;
@@ -22,7 +21,7 @@
     text-align: center;
 }
 #frontpageContent p {
-    font-size: 16px;
+    font-size: 18px;
 }
 #frontpageContent h2 {
     margin-top: 34px;

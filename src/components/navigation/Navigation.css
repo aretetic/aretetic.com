@@ -174,8 +174,8 @@
 	.menu-icon {
 		display: block;
 		position: fixed;
-		top: 13px;
-		right: 13px;
+		top: 21px;
+		right: 21px;
 		font-size: 1.8rem;
 		cursor: pointer;
 		z-index: 12;

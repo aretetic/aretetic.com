@@ -4,6 +4,12 @@ import './Footer.css'
 import copyright from '../images/Copyright.svg'
 
 const Footer = () => {
+  function CurrentYearComponent() {
+    const currentYear = new Date().getFullYear();
+  
+    return <span>{currentYear}</span>;
+  }
+  
   return (
     <>
       <Grid id='footer' direction='row' justifyContent='center' alignItems='center' spacing={2}>
@@ -12,7 +18,7 @@ const Footer = () => {
             
           </Grid.Column>
           <Grid.Column width={4}>
-            <p className='rightJustify s' id='copyright'><img src={copyright} alt='copyright symbol' width='8' /> 2022 Aretetic Solutions, LLC</p>
+            <p className='rightJustify s' id='copyright'><img src={copyright} alt='copyright symbol' width='13' /> <CurrentYearComponent /> Aretetic Solutions, LLC</p>
           </Grid.Column>
         </Grid.Row>
       </Grid>
