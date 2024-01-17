@@ -11,11 +11,13 @@ const Home = () => {
         <source src= {backgroundVideo} type='video/mp4' />
       </video>
       <div id='frontpageContent'>
-        <p>At Aretetic, we supercharge your business's trajectory with our top-tier management consulting. Envision a surge in your success – that's our promise. We ignite and fuel your business's innate brilliance, turning innovations into action. Leveraging our vast experience and unwavering belief in your potential, we're not just consultants but partners in your pursuit of excellence. Let Aretetic be your beacon in the vast sea of opportunities.</p>
-        <h2>Make Good Things Happen</h2>
+        <p>Welcome to Aretetic Solutions, where innovation in computational social choice meets top-tier management consulting to redefine decision-making and research. Our pioneering suite, including PrioPeak™, SoChoice™, and Community-Driven Innovation (CDI), empowers Fortune 500 companies and leading research institutions, supercharging their trajectory towards success. </p>
+        <p>We don't just offer insights; we ignite your business's brilliance, turning innovative ideas into actionable strategies. With our vast experience and a deep belief in your potential, Aretetic is not just a consultant but a partner in your pursuit of excellence. Join us as we navigate the vast sea of opportunities, shaping the future of decision intelligence and responsive research.</p>
+        <center>
         <Link to='/aretetic-solutions-services'>
-          <Button color='black' inverted  variant="contained">Get Started</Button>
+          <Button color='black' inverted size='huge'  variant="contained">Make Good Things Happen</Button>
         </Link>
+        </center>
         
       </div>
     </>

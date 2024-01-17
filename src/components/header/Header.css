@@ -1,27 +1,29 @@
 #logo {
     width: 15vw;
-    height: 15vw;
+    height: 8vw;
     margin-left: auto;
     margin-right: auto;
 }
 #headerContainer {
     width: 100%;
-    height: auto;
-    margin: 0px;
+    height: min-content;
+    margin: 0;
     padding: 0px;
     text-align: center;
     box-shadow: 2px 3px 5px #000;
     background-color: #fff;
     z-index: 100;
     align-items: center !important;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 @media screen and (max-width: 900px) {
     #logo {
-        width: 40vw;
-        height: 40vw;
+        width: 34vw;
+        height: 34vw;
        margin-left: auto;
        margin-right: auto;
-       margin-bottom: -50px;
+       margin-bottom: 0px;
     }
 }

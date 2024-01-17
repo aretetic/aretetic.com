@@ -19,8 +19,8 @@ function Services() {
   }
   return (
     <>
-            <div class='servicesContainer'>
-                <div class='servicesContent'>
+            <div class='pageContainer'>
+                <div class='pageContent'>
                     <Grid stackable relaxed>
                         <Grid.Row>
                             <Grid.Column>

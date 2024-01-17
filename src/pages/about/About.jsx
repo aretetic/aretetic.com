@@ -4,11 +4,11 @@ import './About.css'
 const About = () => {
   return (
     <>
-        <div class='aboutContainer'>
-            <div class='aboutContent'>
+        <div class='pageContainer'>
+            <div class='pageContent'>
 
                 <h1>About Aretetic Solutions, LLC</h1>
-                <p>Welcome to Aretetic Solutions, the nexus of innovation and business transformation.</p>
+                <p>Welcome to <strong>Aretetic Solutions</strong>, the nexus of innovation and business transformation.</p>
 
                 <h2>Who We Are:</h2>
                 <p>Aretetic Solutions, LLC, is a premier management consulting firm dedicated to reshaping the business landscape. With roots deep in strategy and innovation, we've consistently provided businesses the tools and insights they need to evolve, adapt, and thrive in a rapidly changing world.</p>

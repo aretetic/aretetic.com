@@ -1,24 +1,33 @@
+#frontpageContainer {
+    font-family: Garamond, sans-serif;
+    font-weight: 300;
+    width: 100%;
+    margin-bottom: -500px;
+  }
 #video {
     position: fixed;
-    top: 0px;
+    top: 0;
+    left: 0;
     z-index: -1;
     width: 100vw;
+    margin-bottom: -300px;
+    padding-bottom: -300px;
 }
 #frontpageContent {
     width: 55vw;
-    height: min-content;
+    height: min-content !important;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 89px;
+    position: relative;
+    top: 233px;
     font-family: Raleway, sans-serif;
-    font-weight: 800;
-    text-align: center;
+    font-weight: 500;
+    text-align: left;
     background-color: rgba(85,128,169,1);
     color: #fff;
-    padding: 55px 21px 55px 21px;
-    border-radius: 8px;
+    padding: 55px 34px 55px 34px;
+    border-radius: 21px;
     box-shadow: 0px 0px 5px rgba(85,128,169,1);
-    text-align: center;
 }
 #frontpageContent p {
     font-size: 18px;

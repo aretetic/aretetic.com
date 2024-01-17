@@ -1,0 +1,75 @@
+.blogPost {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: first baseline;
+}
+.blogHR {
+    border: 1px rgba(0,0,0,0.5) solid;
+    width: 89px;
+}
+.projectsImage {
+    width: 89%;
+    border-radius: 13px;
+    box-shadow: 3px 2px 3px rgba(0,0,0,0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+/* styles.css */
+
+.projectsTeaser {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 55px !important;
+    transition: box-shadow 0.3s;
+    border-radius: 13px;
+    width: 21vw;
+    height: 233px;
+    overflow: hidden;
+}
+
+.projectsTeaser img {
+    max-width: 100%;
+    height: auto;
+}
+
+.projectsTeaser:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.blogReadMore {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+}
+.projectsContainer
+{
+    height: min-content;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    padding-top: 89px;
+    width: 100%;
+    min-height: 120vh;
+    height: 100%;
+
+    background-image: url(./pexels-sagui-andrea-618833.jpg);
+    padding-bottom: 34px! important;
+
+}
+.projectsContent {
+    background-color: #fff;
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+    padding: 34px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 900px) {
+    .projectsContent {
+        width: 55% !important;
+    }
+}

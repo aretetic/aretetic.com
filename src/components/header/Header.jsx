@@ -5,20 +5,17 @@ import { Grid, Image } from 'semantic-ui-react'
 
 const Header = () => {
   return (
-    <Grid id='headerContainer' justifyContent="center" alignItems="center" stackable>
+    <Grid id='headerContainer' justifyContent="center" alignItems="top" stackable>
       <Grid.Row>
-        <Grid.Column width={1}>
+        <Grid.Column width={2}>
 
         </Grid.Column>
-        <Grid.Column width={5} >
+        <Grid.Column width={4} >
           <Link to='/'>
             <Image src='/images/fullLogoBrandmark.svg' id='logo' alt='A and S forming land and a mountain' />
           </Link>
         </Grid.Column>
-        <Grid.Column width={2}>
-
-        </Grid.Column>
-        <Grid.Column width={8}>
+        <Grid.Column width={10}>
           <Navigation />
         </Grid.Column>
       </Grid.Row>
