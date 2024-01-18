@@ -97,9 +97,9 @@ function Navigation() {
 					>
 						<Link to={'/'} onClick={closeMobileMenu}>
                 			<Image
-							src='/images/fullLogoBrandmark.svg'
+							src='/images/brandmarkVector.svg'
 							className='logo'
-							alt='Stylized square, circle, and triangle that represent Designer Space as a logo'
+							alt='Stylized A and S that looks like a mountain, the logo of Aretetic Solutions'
 							style={{width: '40vw', height: '40vw', marginLeft: 'auto', marginRight: 'auto'}}
 							/> 
 						</Link>

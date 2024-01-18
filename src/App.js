@@ -6,7 +6,8 @@ import Header from './components/header/Header';
 import Home from './pages/home/Home';
 import About from './pages/about/About'
 import Services from './pages/services/Services';
-import Products from 'pages/products/Products';
+import Products from './pages/products/Products';
+import CDI from './pages/products/cdi/CDI'
 import Footer from './components/footer/Footer';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/about-aretetic-solutions' element={<About />} />
         <Route path='/aretetic-solutions-services' element={<Services />} />
         <Route path='/aretetic-products' element={<Products />} />
+		<Route path='/aretetic-products/community-driven-innovation' element={<CDI />} />
         <Route path='*' element={<Navigate to='/' replace />} />
       </Routes>
       {location.pathname !== '/' && <Footer />}
