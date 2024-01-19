@@ -11,4 +11,8 @@ export const MenuData = [
 		title: 'Services',
 		path: '/aretetic-solutions-services',
 	},
+	{
+		title: 'Contact',
+		path: '/contact-us'
+	},
 ]

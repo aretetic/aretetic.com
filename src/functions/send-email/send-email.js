@@ -13,6 +13,7 @@ exports.handler = async function(event, context) {
   const lastname = data.lastname;
   const email = data.email;
   const phone = data.phone;
+  const productdemo = data.productdemo;
   const subject = data.subject;
   const message = data.message;
 
@@ -21,13 +22,14 @@ exports.handler = async function(event, context) {
     to: `Ian@Aretetic.com`,
     from: `Ian@Aretetic.com`,
     subject: subject,
-    text: `Name: ${firstname} ${lastname}/n Email: ${email}/n Phone: ${phone}/n Subject: ${subject}/n Message: ${message}`,
+    text: `Name: ${firstname} ${lastname}/n Email: ${email}/n Demo Interest:${productdemo}/n Phone: ${phone}/n Subject: ${subject}/n Message: ${message}`,
     html: 
     `
     <h3>New Submission on Contact Form</h3>
     <p><b>Name:</b> ${firstname} ${lastname}</p>
     <p><b>Email:</b> ${email}</p>
     <p><b>Phone:</b> ${phone}</p>
+    <p><b>Demo Interest:</b> ${productdemo}</p>
     <p><b>Message:</b> ${message}</p>
     `
     // You can add more details here, such as `cc`, `bcc`, `attachments`, etc.

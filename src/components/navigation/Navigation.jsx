@@ -97,10 +97,10 @@ function Navigation() {
 					>
 						<Link to={'/'} onClick={closeMobileMenu}>
                 			<Image
-							src='/images/brandmarkVector.svg'
+							src='/images/layout/brandmarkVector.svg'
 							className='logo'
 							alt='Stylized A and S that looks like a mountain, the logo of Aretetic Solutions'
-							style={{width: '40vw', height: '40vw', marginLeft: 'auto', marginRight: 'auto'}}
+							style={{width: '21vw', height: '21vw', marginLeft: 'auto', marginRight: 'auto'}}
 							/> 
 						</Link>
 						{previousStack.length ? (

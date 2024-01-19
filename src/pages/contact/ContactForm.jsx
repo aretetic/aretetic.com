@@ -10,6 +10,7 @@ const ContactForm = () => {
     lastname: '',
     phone: '',
     email: '',
+    productdemo: '',
     subject: '',
     message: ''
   });
@@ -42,6 +43,7 @@ const ContactForm = () => {
     lastname: '',
     phone: '',
     email: '',
+    productdemo: '',
     subject: '',
     message: ''
     });
@@ -85,6 +87,73 @@ const ContactForm = () => {
         Email:
       </label>
         <input type="email" name="email" onChange={handleInputChange} value={formState.email} required />
+      </Form.Field>
+      <Form.Field required>
+        <label style={{ fontSize: 16}}>
+          Product Interest:
+        </label>
+        <div style={{ display: 'flex', }}>
+          <span style={{ margin: '21px 21px', }}>
+            <input 
+              type='radio' 
+              id='PrioPeak' 
+              name='productdemo' 
+              onChange={handleInputChange} 
+              value="PrioPeak" 
+              checked={formState.productdemo === "PrioPeak"} 
+              style={{ marginLeft: '40%', }}
+            />
+            <label for="PrioPeak"><h3><strong>PrioPeak</strong></h3></label>
+          </span>
+          <span style={{ margin: '21px 21px', }}>
+            <input 
+              type='radio' 
+              id='SoChoice' 
+              name='productdemo' 
+              onChange={handleInputChange} 
+              value="SoChoice" 
+              checked={formState.productdemo === "SoChoice"} 
+              style={{ marginLeft: '40%', }}
+            />
+            <label for="SoChoice"><h3><strong>SoChoice</strong></h3></label>
+          </span>
+          <span style={{ margin: '21px 21px', }}>
+            <input 
+              type='radio' 
+              id='CDI' 
+              name='productdemo' 
+              onChange={handleInputChange} 
+              value="CDI" 
+              checked={formState.productdemo === "CDI"} 
+              style={{ marginLeft: '40%', }}
+            />
+            <label for="CDI"><h3><strong>CDI</strong></h3></label>
+          </span>
+          <span style={{ margin: '21px 21px', }}>
+            <input 
+              type='radio' 
+              id='DigitalCabinet' 
+              name='productdemo' 
+              onChange={handleInputChange} 
+              value="DigitalCabinet" 
+              checked={formState.productdemo === "DigitalCabinet"} 
+              style={{ marginLeft: '40%', }}
+            />
+            <label for="DigitalCabinet"><h3><strong>Digital Cabinet</strong></h3></label>
+          </span>
+          <span style={{ margin: '21px 21px', }}>
+            <input 
+              type='radio' 
+              id='Services' 
+              name='productdemo' 
+              onChange={handleInputChange} 
+              value="Services" 
+              checked={formState.productdemo === "Services"} 
+              style={{ marginLeft: '40%', }}
+            />
+            <label for="Services"><h3><strong>Services</strong></h3></label>
+          </span>
+        </div>
       </Form.Field>
       <Form.Field required>
         <label style={{ fontSize: 16 }}>

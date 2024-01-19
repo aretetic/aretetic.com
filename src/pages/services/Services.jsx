@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ContactForm from './ContactForm'
 import './Services.css'
 import { Grid, Button } from 'semantic-ui-react'
 
@@ -117,23 +116,6 @@ function Services() {
                                 }
                             </Grid.Column>
                         </Grid.Row>
-                        <Grid.Row>
-                            <Grid.Column width={16}>
-                            <hr />
-                            </Grid.Column>
-                        </Grid.Row>
-                        <Grid.Row>
-                            <Grid.Column>
-                                <h3>Contact us to see how we could make good things happen, together.</h3>
-                            </Grid.Column>
-                        </Grid.Row>
-                        <Grid.Row>
-                            <Grid.Column>
-                                <ContactForm />
-                            </Grid.Column>
-                        </Grid.Row>
-
-
                     </Grid>
                   </div>
                   </div>

@@ -12,7 +12,7 @@ const Header = () => {
         </Grid.Column>
         <Grid.Column width={4} >
           <Link to='/'>
-            <Image src='/images/brandmarkVector.svg' id='logo' alt='A and S forming land and a mountain, the logo of Aretetic Solutions' />
+            <Image src='/images/layout/brandmarkVector.svg' id='logo' alt='A and S forming land and a mountain, the logo of Aretetic Solutions' />
           </Link>
         </Grid.Column>
         <Grid.Column width={10}>
