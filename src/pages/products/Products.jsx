@@ -25,7 +25,7 @@ const Products = () => {
             </ButtonGroup>
 <hr />
             <h2>SoChoice</h2>
-            <p><strong>SoChoice</strong> technology revolutionizes group decision-making. By harnessing the power of quadratic voting, SoChoice™ facilitates rapid, democratic decision-making within large groups, with a unique ability to gauge the intensity of preferences. This cutting-edge tool is vital for organizations aiming to make informed, inclusive, and rapid decisions in today's fast-paced world.</p>
+            <p><strong>SoChoice</strong> technology revolutionizes group decision-making. By harnessing the power of quadratic voting, SoChoice facilitates rapid, democratic decision-making within large groups, with a unique ability to gauge the intensity of preferences. This cutting-edge tool is vital for organizations aiming to make informed, inclusive, and rapid decisions in today's fast-paced world.</p>
             <ButtonGroup>
                 <Link to='/aretetic-products/sochoice'>
                     <Button color='red'>More about SoChoice</Button>

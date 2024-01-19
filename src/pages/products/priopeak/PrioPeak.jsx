@@ -60,22 +60,59 @@ const PrioPeak = () => {
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column width={8}>
+                        <Grid.Column width={8} verticalAlign='middle'>
                         <center>
-                            <h2>
-                            Benefits:
-                            </h2>
+                            <h3>
+                            Benefits
+                            </h3>
                         </center>
-                        <ul>
-                            <li><strong>Enhanced Decision-Making:</strong> Facilitates more informed and strategic decisions by understanding group dynamics and priorities.</li>
-                            <li><strong>Conflict Resolution:</strong> Aids in resolving conflicts by identifying common priorities and areas of agreement.</li>
-                            <li><strong>Future-Ready Strategies:</strong> Provides a framework for developing long-term strategies based on predictive models.</li>
-                            <li><strong>Efficient Consensus Building:</strong> Streamlines the process of reaching consensus within groups, saving time and resources.</li>
-                            <li><strong>Customizable Solutions:</strong> Adapts to various organizational contexts and groups, offering tailored insights and recommendations.</li>
-                        </ul>
+                        <dl>
+                            <dt>Enhanced Decision-Making</dt>
+                            <dd>Facilitates more informed and strategic decisions by understanding group dynamics and priorities.</dd>
+                            <dt>Conflict Resolution</dt>
+                            <dd>Aids in resolving conflicts by identifying common priorities and areas of agreement.</dd>
+                            <dt>Future-Ready Strategies</dt>
+                            <dd>Provides a framework for developing long-term strategies based on predictive models.</dd>
+                            <dt>Efficient Consensus Building</dt>
+                            <dd>Streamlines the process of reaching consensus within groups, saving time and resources.</dd>
+                            <dt>Customizable Solutions</dt>
+                            <dd>Adapts to various organizational contexts and groups, offering tailored insights and recommendations.</dd>
+                        </dl>
                         </Grid.Column>
                         <Grid.Column width={8}>
-                            <Image src='' size='large' centered />
+                            <Image src='/images/content/benefits_priopeak.png' size='large' centered />
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={16}>
+                                <p>
+                                    <strong>PrioPeak</strong> is an ideal solution for a broad spectrum of organizations, including large corporations, government agencies, non-profit organizations, educational institutions, and research groups. It excels in harmonizing diverse departmental priorities within corporations and assists government agencies in balancing stakeholder interests for effective policy-making. Non-profits can align their missions with community and donor expectations, while educational institutions benefit from streamlined administrative and curriculum decision-making. Research groups use PrioPeak to focus on critical research areas. Its blend of social listening, NLP, and computational social-choice methods offers a tailored, data-driven approach to consensus building and strategic planning across varied organizational needs.
+                                </p>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={4}>
+
+                        </Grid.Column>
+                        <Grid.Column width={8}>
+                            <h3>How It Works:</h3>
+                                <dl>
+                                    <dt>Data Collection</dt>
+                                    <dd>PrioPeak gathers data from multiple sources, including social media, web content, and direct interviews.</dd>
+                                    <dt>Data Analysis</dt>
+                                    <dd>Utilizes NLP and other analytical tools to process and understand the data.</dd>
+                                    <dt>Priority Identification</dt>
+                                    <dd>Applies ComSOC methods to identify key priorities and consensus areas.</dd>
+                                    <dt>Outcome Evaluation</dt>
+                                    <dd>Iteratively evaluates the importance and satisfaction levels of different outcomes.</dd>
+                                    <dt>Predictive Modelling</dt>
+                                    <dd>Develops predictive models to guide future decisions.</dd>
+                                    <dt>Strategic Planning</dt>
+                                    <dd>Provides a framework for long-term decision-making based on the analysis.</dd>
+                                </dl>
+                        </Grid.Column>
+                        <Grid.Column width={4}>
+
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

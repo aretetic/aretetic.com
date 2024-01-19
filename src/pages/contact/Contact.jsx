@@ -18,7 +18,7 @@ const Contact = () => {
                 </Grid>
                 <hr />
                 <center>
-                <p>Address: 8680 Miralani Dr. San Diego, CA 92040</p>
+                <p>Address: 8680 Miralani Dr. #120 San Diego, CA 92040</p>
                 <p>Phone: <a href='tel:8583366769'>(858) 215-1822</a></p>
                 <p>Email: <a href='mailto:info@aretetic.com'>Info@aretetic.com</a></p>
                 </center>
