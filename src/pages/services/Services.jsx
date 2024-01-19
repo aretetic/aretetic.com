@@ -23,12 +23,12 @@ function Services() {
                     <Grid stackable relaxed>
                         <Grid.Row>
                             <Grid.Column>
-                            <h2>
-                                Unleash your business potential with our exquisite, tailor-made solutions, designed to empower organizations with unprecedented growth and productivity!
-                            </h2> 
-                            <h2>
-                                Experience the pinnacle of success with our highly acclaimed, game-changing core services:
-                            </h2>
+                                <h1>
+                                    Unleash your business potential with our exquisite, tailor-made solutions, designed to empower organizations with unprecedented growth and productivity!
+                                </h1> 
+                                <h2>
+                                    Experience the pinnacle of success with our highly acclaimed, game-changing core services:
+                                </h2>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row stretched columns='equal'>
