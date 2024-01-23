@@ -1,5 +1,8 @@
-import React from 'react'
-import './About.css'
+import React from 'react';
+import './About.css';
+import { Grid } from 'semantic-ui-react';
+import CommunityCarousel from 'components/carousel/community/CommunityCarousel';
+import IndustryCarousel from 'components/carousel/industry/IndustryCarousel';
 
 const About = () => {
   return (
@@ -10,12 +13,18 @@ const About = () => {
                 <h1>About Aretetic Solutions, LLC</h1>
                 <p>Welcome to <strong>Aretetic Solutions</strong>, the nexus of innovation and business transformation.</p>
 
-                <h2>Who We Are:</h2>
-                <p>Aretetic Solutions, LLC, is a premier management consulting firm dedicated to reshaping the business landscape. With roots deep in strategy and innovation, we've consistently provided businesses the tools and insights they need to evolve, adapt, and thrive in a rapidly changing world.</p>
-
                 <h2>Our Mission:</h2>
                 <p>To empower businesses to not just meet, but exceed their potential. In an era of digital transformation and unprecedented challenges, our goal is to provide tailored, dynamic solutions that turn obstacles into opportunities.</p>
-
+                <Grid>
+                  <Grid.Row>
+                    <Grid.Column width={8}>
+                      <IndustryCarousel />
+                    </Grid.Column>
+                    <Grid.Column width={8}>
+                      <CommunityCarousel />
+                    </Grid.Column>
+                  </Grid.Row>
+                </Grid>
                 <h2>What Sets Us Apart:</h2>
                 <ol>
                     <li><strong>Expertise:</strong> Our team comprises seasoned professionals who bring a wealth of experience from diverse industries. This rich tapestry of knowledge allows us to provide insights that are both broad in scope and deep in detail.</li>
