@@ -25,7 +25,7 @@ const About = () => {
                 </ol>
 
                 <h2>Our Journey:</h2>
-                <p>Since our inception, Aretetic Solutions, LLC, has been a beacon for businesses seeking growth and transformation. We've navigated the tumultuous waters of industry shifts and technological revolutions, always emerging stronger, and always guiding our clients to safer shores.</p>
+                <p>Since our inception in 2009, Aretetic Solutions, LLC, has been a beacon for businesses seeking growth and transformation. We've navigated the tumultuous waters of industry shifts and technological revolutions, always emerging stronger, and always guiding our clients to safer shores.</p>
 
                 <p>Join us on a journey towards excellence. At Aretetic, your vision is our mission. Together, let's shape the future of business.</p>
 

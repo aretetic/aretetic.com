@@ -92,7 +92,6 @@ const PrioPeak = () => {
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={4}>
-
                         </Grid.Column>
                         <Grid.Column width={8}>
                             <h3>How It Works:</h3>
@@ -112,7 +111,6 @@ const PrioPeak = () => {
                                 </dl>
                         </Grid.Column>
                         <Grid.Column width={4}>
-
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
