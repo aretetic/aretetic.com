@@ -12,7 +12,7 @@ const Home = () => {
       </video>
       <div id='frontpageContent'>
         <p>
-          Welcome to Aretetic Solutions, where innovation in computational social choice meets top-tier management consulting to redefine decision-making and research. Our pioneering suite, including PrioPeak™, SoChoice™, and Community-Driven Innovation (CDI), empowering companies from Fortune 500 and leading research groups to loosely organized communities , supercharging their trajectory towards success.
+          Welcome to Aretetic Solutions, where innovation in computational social choice meets top-tier management consulting to redefine decision-making and research. Our pioneering suite, including PrioPeak™, SoChoice™, and Community-Driven Innovation (CDI), empowers companies; from Fortune 500 and leading research institutions to loosely organized communities , supercharging their trajectory towards success.
         </p>
         <p>
           We don't just offer insights; we ignite your business's brilliance, turning innovative ideas into actionable strategies. With our vast experience and a deep belief in your potential, Aretetic is not just a consultant but a partner in your pursuit of excellence. Join us as we navigate the vast sea of opportunities, shaping the future of decision intelligence and responsive research.
