@@ -72,16 +72,36 @@ const PrioPeak = () => {
                             </h3>
                         </center>
                         <dl>
-                            <dt>Enhanced Decision-Making</dt>
-                            <dd>Facilitates more informed and strategic decisions by understanding group dynamics and priorities.</dd>
-                            <dt>Conflict Resolution</dt>
-                            <dd>Aids in resolving conflicts by identifying common priorities and areas of agreement.</dd>
-                            <dt>Future-Ready Strategies</dt>
-                            <dd>Provides a framework for developing long-term strategies based on predictive models.</dd>
-                            <dt>Efficient Consensus Building</dt>
-                            <dd>Streamlines the process of reaching consensus within groups, saving time and resources.</dd>
-                            <dt>Customizable Solutions</dt>
-                            <dd>Adapts to various organizational contexts and groups, offering tailored insights and recommendations.</dd>
+                            <dt>
+                                Enhanced Decision-Making
+                            </dt>
+                            <dd>
+                                Facilitates more informed and strategic decisions by understanding group dynamics and priorities.
+                            </dd>
+                            <dt>
+                                Conflict Resolution
+                            </dt>
+                            <dd>
+                                Aids in resolving conflicts by identifying common priorities and areas of agreement.
+                            </dd>
+                            <dt>
+                                Future-Ready Strategies
+                            </dt>
+                            <dd>
+                                Provides a framework for developing long-term strategies based on predictive models.
+                            </dd>
+                            <dt>
+                                Efficient Consensus Building
+                            </dt>
+                            <dd>
+                                Streamlines the process of reaching consensus within groups, saving time and resources.
+                            </dd>
+                            <dt>
+                                Customizable Solutions
+                            </dt>
+                            <dd>
+                                Adapts to various organizational contexts and groups, offering tailored insights and recommendations.
+                            </dd>
                         </dl>
                         </Grid.Column>
                         <Grid.Column width={8}>
