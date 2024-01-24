@@ -28,8 +28,13 @@ const PrioPeak = () => {
                         </h3>
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column width={8}>
-                            <Image src="/images/content/kinuvian_a_simple_graphic_created_in_pointillism_style_that_loo_28018443-6653-442e-9a66-245443e94776.png" size='large' centered style={{ borderRadius: '8px', }} />
+                        <Grid.Column width={8} verticalAlign='middle'>
+                            {/**<div style={{ width: '450px', overflow: 'hidden', marginLeft: 'auto', marginRight: 'auto', borderRadius: '13px', }}>
+                                <video autoPlay loop muted style={{ width: '800px', marginLeft: '-175px', }}>
+                                    <source src='/videos/PrioPeakVideo1.mp4' type='video/mp4' />
+                                </video>
+                             </div>**/}
+                             <Image src="/images/content/keyfeatures_priopeak.png" size='large' centered style={{ borderRadius: '8px', }} />
                         </Grid.Column>
                         <Grid.Column width={8} verticalAlign='middle'>
                             <center>
