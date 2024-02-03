@@ -37,7 +37,7 @@
 }
 @media screen and (max-width: 900px) {
     #video {
-        display: none;
+        display: none !important;
     }
     #frontpageContent {
         width: 89vw !important;

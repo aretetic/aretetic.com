@@ -65,14 +65,14 @@ const Products = () => {
             </ButtonGroup>
 <hr />
             <h2>
-                Digital Cabinet
+                DigitalCabinet
             </h2>
             <p>
-                <strong>Digital Cabinet</strong> offers a streamlined and cost-effective solution for rare disease registries looking to store their data securely and in compliance with regulatory standards. Designed with simplicity in mind, this digital platform transforms the complexities of data management into an intuitive, user-friendly experience. Our commitment to affordability ensures that even the most budget-conscious organizations can benefit from our secure, compliant environment. Digital Cabinet is not just a storage solution; it's a dependable partner in safeguarding sensitive medical data, providing peace of mind for researchers and advocacy groups in the rare disease community. With Digital Cabinet, you can focus more on research and advocacy, and less on the intricacies of data storage.
+                <strong>DigitalCabinet</strong> offers a streamlined and cost-effective solution for rare disease registries looking to store their data securely and in compliance with regulatory standards. Designed with simplicity in mind, this digital platform transforms the complexities of data management into an intuitive, user-friendly experience. Our commitment to affordability ensures that even the most budget-conscious organizations can benefit from our secure, compliant environment. DigitalCabinet is not just a storage solution; it's a dependable partner in safeguarding sensitive medical data, providing peace of mind for researchers and advocacy groups in the rare disease community. With DigitalCabinet, you can focus more on research and advocacy, and less on the intricacies of data storage.
             </p>
             <ButtonGroup>
                 <Link to='/aretetic-products/digital-cabinet'>
-                    <Button color='brown'>More about Digital Cabinet</Button>
+                    <Button color='brown'>More about DigitalCabinet</Button>
                 </Link>
                 <ButtonOr />
                 <Link to='/contact-us'>
