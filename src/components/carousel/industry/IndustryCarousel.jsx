@@ -50,6 +50,11 @@ const IndustryCarousel = () => {
                     <Image className='carouselImage' src="/images/content/industrypartners/Luna_Logo.png" alt="Luna Logo" size='medium' />
                 </Link>
             </div>
+            <div class='carouselImageContainer'>
+                <Link to='https://www.acmg.net/' target='_blank'>
+                    <Image className='carouselImage' src="/images/content/industrypartners/acmg-logo.png" alt="American College of Medical Genetics Logo" size='medium' />
+                </Link>
+            </div>
             {/* Add more images as needed */}
         </Carousel>
         </>
