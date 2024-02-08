@@ -1,10 +1,16 @@
 import React from 'react'
 import './PrioPeak.css'
-import { Grid, Image, } from 'semantic-ui-react'
+import { Button, Grid, Image, } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
 
 const PrioPeak = () => {
     return (
     <>
+        <div class='productCallToAction'>
+            <center><Link to='/contact-us'>
+                    <Button positive>Request a Demo</Button>
+                </Link></center>
+        </div>
         <div class='pageContainer'>
             <div class='pageContent'>
                 <Grid stackable relaxed>

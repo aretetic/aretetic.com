@@ -1,11 +1,16 @@
 import React from 'react'
 import './SoChoice.css'
 import { Link } from 'react-router-dom'
-import { Image } from 'semantic-ui-react'
+import { Image, Button } from 'semantic-ui-react'
 
 const SoChoice = () => {
     return (
     <>
+        <div class='productCallToAction'>
+            <center><Link to='/contact-us'>
+                    <Button positive>Request a Demo</Button>
+                </Link></center>
+        </div>
         <div class='pageContainer'>
             <div class='pageContent'>
                 <h1>SoChoice</h1>

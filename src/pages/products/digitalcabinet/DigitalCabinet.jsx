@@ -1,10 +1,17 @@
 import React from 'react'
 import './DigitalCabinet.css'
 import withPasswordProtection from './withPasswordProtection';
+import { Button } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 
 const DigitalCabinet = () => {
     return (
     <>
+        <div class='productCallToAction'>
+            <center><Link to='/contact-us'>
+                    <Button positive>Request a Demo</Button>
+                </Link></center>
+        </div>
         <div className='pageContainer'>
             <div className='pageContent'>
             <section>
@@ -39,7 +46,26 @@ const DigitalCabinet = () => {
             <section>
                 <h2>Timeline:</h2>
                 <p>The number of groups participating will directly influence the progression speed of these phases. The greater the participation, the more we can invest in development each month, expediting the growth of our solutions.</p>
-                <p>The following tiers are “early bird” and include decreasing costs in exchange for working towards this future together when it is still a vision</p>
+                <p>The following tiers are “early bird” and include decreasing costs in exchange for working towards this future together when it is still a vision. After February 20th these tiers will all increase by 50% in cost. </p>
+            </section>
+            <section>
+            <h2>Cost:</h2>
+            <p>After modeling costs and looking at all the advocacy group expectations around costs, we have arrived at three membership tiers.</p>
+            <p>Several criteria evaluate a group before being assigned a tier, including group size, yearly budget, and rarity of the disease the organization serves.</p>
+            
+            <h3>Tier 1:</h3>
+            <p>$1,000/month – or – $11,000/year paid annually. One month free!<br />
+            This is the standard tier for the product suite; most groups will be at this level.</p>
+            
+            <h3>Tier 2:</h3>
+            <p>$2,000/month – or – $22,000/year paid annually.<br />
+            This tier is for groups with above-average results on the criteria listed above and can afford this level. We have worked hard to keep costs in this tiering low, and this tier helps the business model become sustainable.</p>
+            
+            <h3>Special Consideration Tier:</h3>
+            <p>$500/month – or – $5,500/year paid annually.<br />
+            This tier is for groups that fall below the capacity needed for Tier 1 groups and is a special consideration on an individual group basis.</p>
+            
+            <p>All three tiers will have the same access to the platform and the exact representation in whichever governance system the community decides on together. The founding community members will have a specific say in the type and nature of the governance system, and future groups will become members of whatever that governance system is deemed to be by the founders.</p>
             </section>
 
             </div>
