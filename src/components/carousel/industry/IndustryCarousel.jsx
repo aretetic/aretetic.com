@@ -25,11 +25,11 @@ const IndustryCarousel = () => {
                     <Image className='carouselImage' src="/images/content/industrypartners/PCORnet-logo.png" alt="Patient-centered Clinical Research Network" size='medium' />
                 </Link>
             </div>
-            <div class='carouselImageContainer'>
+            {/**<div class='carouselImageContainer'>
                 <Link to='https://www.qualitymetric.com/' target='_blank'>
                     <Image className='carouselImage' src="/images/content/industrypartners/QM_Logo.png" alt="QualityMetric Logo" size='medium' />
                 </Link>
-            </div>
+            </div>*/}
             <div class='carouselImageContainer'>
                 <Link to='https://www.takeda.com/en-us' target='_blank'>
                     <Image className='carouselImage' src="/images/content/industrypartners/Takeda_Pharmaceutical_Company_logo.svg" alt="Takeda Logo" size='medium' />
